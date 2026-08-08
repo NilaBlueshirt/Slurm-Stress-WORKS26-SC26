@@ -1,0 +1,3 @@
+[2026-08-08T01:21:12.599] error: *** JOB 1446458 ON sd001 CANCELLED AT 2026-08-08T01:21:12 DUE to SIGNAL Terminated ***
+[2026-08-08T01:21:42.319] error: namespace_p_join: setns failed for /mnt/job_tmp/1446458/.ns: Invalid argument
+[2026-08-08T01:21:42.329] error: namespace_g_join(JobId=1446458 SLUID=s6N5KZG6TK3H00): Invalid argument

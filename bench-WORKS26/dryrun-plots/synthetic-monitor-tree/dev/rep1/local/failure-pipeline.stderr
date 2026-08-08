@@ -1,0 +1,35 @@
+===============================================================================
+Loaded: hyperqueue 0.26.2
+
+  Simplify execution of large workflows (task graphs) on HPC clusters.
+
+  For more information, visit:
+  https://it4innovations.github.io/hyperqueue/stable/installation/
+
+===============================================================================
+     
+=====================================================================
+Loaded: mamba 2.6.2
+
+Usage example:
+$ mamba create -n myenv -c conda-forge python=3 <package_name>
+$ source activate myenv
+
+Only run "pip install" after activating an environment.
+Running pip without activating an environment is known to cause issues.
+
+To list available environments:
+$ mamba info --envs
+
+More info: docs.rc.asu.edu/python
+
+=====================================================================
+     
+
+Currently Loaded Modules:
+  1) openjdk-17.0.3_7-gcc-12.1.0   3) hyperqueue/0.26.2
+  2) nextflow-26.04.0-gcc-13.2.0   4) mamba/latest
+
+ 
+
+Nextflow 26.04.6 is available - Please consider updating your version to it

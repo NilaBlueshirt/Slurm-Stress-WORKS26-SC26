@@ -1,0 +1,44 @@
+*******************************************************
+sdiag output at Wed Aug 05 00:00:00 2026 (1754352000)
+Data since      Mon Aug 04 17:00:00 2026
+*******************************************************
+Server thread count:  3
+Agent queue size:     2
+Agent count:          0
+DBD Agent queue size: 0
+
+Jobs submitted: 12000
+Jobs started:   11000
+Jobs completed: 10500
+Jobs canceled:  10
+Jobs failed:    2
+Jobs pending:   154
+Jobs running:   351
+
+Main schedule statistics (microseconds):
+	Last cycle:   6886
+	Max cycle:    99000
+	Total cycles: 901725
+	Mean cycle:   5100
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 900
+	Total cycles: 50550
+	Last cycle:  133570
+	Mean cycle:  118000
+
+Latency for 1000 calls to gettimeofday(): 18 microseconds
+
+Remote Procedure Call statistics by message type
+	REQUEST_SUBMIT_BATCH_JOB                ( 4003) count:14296    ave_time:900    total_time:900000
+	REQUEST_JOB_INFO_SINGLE                 ( 2021) count:27734    ave_time:300    total_time:300000
+	REQUEST_JOB_USER_INFO                   ( 2039) count:27734    ave_time:280    total_time:280000
+
+Remote Procedure Call statistics by user
+	root            (       0) count:551    ave_time:400    total_time:220625
+	benchuser       (    5001) count:122    ave_time:800    total_time:18442854
+	otheruser       (    5002) count:56187    ave_time:600    total_time:120000
+	slurm           (     990) count:20    ave_time:100    total_time:2000
+
+Pending RPC statistics
+	No pending RPCs
