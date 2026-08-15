@@ -1,5 +1,0 @@
-CLUSTER: dev
-Account                    User  RawShares  NormShares    RawUsage   NormUsage  EffectvUsage  FairShare                    GrpTRESMins                    TRESRunMins 
--------------------- ---------- ---------- ----------- ----------- ----------- ------------- ---------- ------------------------------ ------------------------------ 
-grp_rcadmins                             1    0.022727     3082945    0.522868      0.522868                                           cpu=0,mem=0,energy=0,node=0,b+ 
- grp_rcadmins          tianche5          1    0.007576     3082288    0.550043      0.522742   0.000000                                cpu=0,mem=0,energy=0,node=0,b+ 

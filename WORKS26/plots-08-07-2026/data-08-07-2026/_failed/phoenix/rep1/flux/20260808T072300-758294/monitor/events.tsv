@@ -1,6 +1,0 @@
-epoch	event	detail
-1786172722.089856335	fairshare_reset_started	
-1786172722.456696007	fairshare_reset_verified	
-1786172722.521141508	benchmark_user_row_primed	
-1786172722.745246423	boundary_before_captured	
-1786172722.760365931	periodic_series_seeded	1786172722.682264533

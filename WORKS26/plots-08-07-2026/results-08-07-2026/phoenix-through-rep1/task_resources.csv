@@ -1,5 +1,0 @@
-trace,trace_rows,active_attempts,cpu_metric_attempts,cpu_metric_missing_attempts,cpus_per_task,task_core_hours,cpu_metric_task_core_hours,cpu_metric_coverage_percent,cpu_use_percent,observed_cpu_core_hours
-/data/rcadmins/tianche5/wms-paper-chain/bench-WORKS26/dryrun-plots/synthetic-monitor-tree/phoenix/rep1/flux/trace.txt,4922,4922,4922,0,1,305.936506,305.936506,100.000,96.221,294.375270
-/data/rcadmins/tianche5/wms-paper-chain/bench-WORKS26/dryrun-plots/synthetic-monitor-tree/phoenix/rep1/hyperqueue/trace.txt,4922,4922,4922,0,1,329.290629,329.290629,100.000,98.998,325.990897
-/data/rcadmins/tianche5/wms-paper-chain/bench-WORKS26/dryrun-plots/synthetic-monitor-tree/phoenix/rep1/jobarray/trace.txt,5137,5137,4922,215,1,358.762058,331.177558,92.311,89.095,295.062564
-/data/rcadmins/tianche5/wms-paper-chain/bench-WORKS26/dryrun-plots/synthetic-monitor-tree/phoenix/rep1/native/trace.txt,4922,4922,4922,0,1,304.986180,304.986180,100.000,96.226,293.476977
