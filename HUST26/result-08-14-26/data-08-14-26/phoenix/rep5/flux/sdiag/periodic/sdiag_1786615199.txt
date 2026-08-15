@@ -1,0 +1,316 @@
+*******************************************************
+sdiag output at Thu Aug 13 02:59:59 2026 (1786615199)
+Data since      Wed Aug 12 17:00:00 2026 (1786579200)
+*******************************************************
+Server thread count:  1
+RPC queue enabled:    0
+Agent queue size:     0
+Agent count:          1
+Agent thread count:   12
+DBD Agent queue size: 0
+
+Jobs submitted: 282
+Jobs started:   6804
+Jobs completed: 8320
+Jobs canceled:  31
+Jobs failed:    0
+
+Job states ts:  Thu Aug 13 02:59:50 2026 (1786615190)
+Jobs pending:   14078
+Jobs running:   4064
+
+Main schedule statistics (microseconds):
+	Last cycle:   19990
+	Max cycle:    452376
+	Total cycles: 9355
+	Mean cycle:   13642
+	Mean depth cycle:  135
+	Cycles per minute: 15
+	Last queue length: 614
+
+Main scheduler exit:
+	End of job queue:599
+	Hit default_queue_depth:8756
+	Hit sched_max_job_start: 0
+	Blocked on licenses: 0
+	Hit max_rpc_cnt: 0
+	Timeout (max_sched_time): 0
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 8866334
+	Total backfilled jobs (since last stats cycle start): 5103
+	Total backfilled heterogeneous job components: 0
+	Total cycles: 415
+	Last cycle when: Thu Aug 13 02:59:03 2026 (1786615143)
+	Last cycle: 35976432
+	Max cycle:  85343061
+	Mean cycle: 45646007
+	Last depth cycle: 626
+	Last depth cycle (try sched): 572
+	Depth Mean: 614
+	Depth Mean (try depth): 558
+	Last queue length: 614
+	Queue length mean: 645
+	Last table size: 475
+	Mean table size: 415
+
+Backfill exit
+	End of job queue:302
+	Hit bf_max_job_start: 0
+	Hit bf_max_job_test: 0
+	System state changed:113
+	Hit table size limit (bf_node_space_size): 0
+	Timeout (bf_max_time): 0
+
+Latency for 1000 calls to gettimeofday(): 266 microseconds
+
+Remote Procedure Call statistics by message type
+	REQUEST_PARTITION_INFO                  ( 2009) count:59907038 ave_time:98     total_time:5881300570
+	REQUEST_CONFIG                          ( 2015) count:39960576 ave_time:172    total_time:6895308377
+	REQUEST_FED_INFO                        ( 2049) count:28510841 ave_time:67     total_time:1915061302
+	REQUEST_NODE_INFO                       ( 2007) count:22625921 ave_time:65318  total_time:1477882084104
+	REQUEST_JOB_USER_INFO                   ( 2039) count:21740715 ave_time:70378  total_time:1530076989875
+	REQUEST_NODE_INFO_SINGLE                ( 2040) count:17303493 ave_time:5577   total_time:96516825700
+	REQUEST_STEP_COMPLETE                   ( 5016) count:10124435 ave_time:13846  total_time:140183269549
+	REQUEST_COMPLETE_PROLOG                 ( 6018) count:9641585 ave_time:90107  total_time:868779797221
+	MESSAGE_EPILOG_COMPLETE                 ( 6012) count:9627266 ave_time:34799  total_time:335021632695
+	REQUEST_COMPLETE_BATCH_SCRIPT           ( 5018) count:9462374 ave_time:111940 total_time:1059227310228
+	REQUEST_JOB_INFO_SINGLE                 ( 2021) count:6711776 ave_time:69275  total_time:464958288166
+	REQUEST_BATCH_SCRIPT                    ( 2051) count:3784024 ave_time:8947   total_time:33857286645
+	MESSAGE_NODE_REGISTRATION_STATUS        ( 1002) count:2738987 ave_time:16094  total_time:44081804046
+	REQUEST_KILL_JOB                        ( 5032) count:1633758 ave_time:6914   total_time:11297139264
+	REQUEST_SUBMIT_BATCH_JOB                ( 4003) count:1059945 ave_time:81959  total_time:86872280126
+	REQUEST_JOB_INFO                        ( 2003) count:602113 ave_time:122876 total_time:73985381073
+	REQUEST_JOB_STEP_CREATE                 ( 5001) count:501704 ave_time:15301  total_time:7676988616
+	REQUEST_UPDATE_NODE                     ( 3002) count:483087 ave_time:2173   total_time:1049842622
+	REQUEST_HET_JOB_ALLOC_INFO              ( 4027) count:475801 ave_time:55637  total_time:26472548602
+	REQUEST_JOB_REQUEUE                     ( 5023) count:165146 ave_time:93149  total_time:15383220522
+	REQUEST_CANCEL_JOB_STEP                 ( 5005) count:80917  ave_time:8732   total_time:706647798
+	REQUEST_STATS_INFO                      ( 2035) count:57122  ave_time:112    total_time:6400373
+	REQUEST_JOB_STEP_INFO                   ( 2005) count:35339  ave_time:477591 total_time:16877607997
+	REQUEST_JOB_WILL_RUN                    ( 4012) count:23386  ave_time:10140  total_time:237156001
+	REQUEST_BUILD_INFO                      ( 2001) count:17183  ave_time:86382  total_time:1484313920
+	REQUEST_SHARE_INFO                      ( 2022) count:17096  ave_time:4884   total_time:83510072
+	REQUEST_PING                            ( 1008) count:16860  ave_time:64     total_time:1079746
+	REQUEST_JOB_READY                       ( 4019) count:9205   ave_time:104876 total_time:965391491
+	REQUEST_RESOURCE_ALLOCATION             ( 4001) count:3528   ave_time:122973 total_time:433848988
+	REQUEST_COMPLETE_JOB_ALLOCATION         ( 5017) count:2700   ave_time:34313  total_time:92645616
+	REQUEST_RESERVATION_INFO                ( 2024) count:1878   ave_time:55455  total_time:104145995
+	REQUEST_UPDATE_JOB                      ( 3001) count:533    ave_time:29346  total_time:15641856
+	REQUEST_JOB_NOTIFY                      ( 4022) count:524    ave_time:283    total_time:148317
+	ACCOUNTING_UPDATE_MSG                   (10001) count:299    ave_time:17240  total_time:5155008
+	REQUEST_JOB_ALLOCATION_INFO             ( 4014) count:246    ave_time:8084   total_time:1988771
+	REQUEST_REBOOT_NODES                    ( 1015) count:147    ave_time:6803   total_time:1000114
+	REQUEST_TOP_JOB                         ( 5038) count:58     ave_time:223480 total_time:12961850
+	REQUEST_PRIORITY_FACTORS                ( 2026) count:13     ave_time:2518   total_time:32735
+	ACCOUNTING_REGISTER_CTLD                (10003) count:3      ave_time:13049  total_time:39148
+	REQUEST_SUSPEND                         ( 5014) count:3      ave_time:550235 total_time:1650705
+	65534                                   (65534) count:2      ave_time:175    total_time:351
+	REQUEST_AUTH_TOKEN                      ( 5039) count:2      ave_time:356    total_time:712
+	REQUEST_ASSOC_MGR_INFO                  ( 2043) count:1      ave_time:10000  total_time:10000
+	REQUEST_TOPO_INFO                       ( 2028) count:1      ave_time:245    total_time:245
+
+Remote Procedure Call statistics by user
+	blherre4        ( 2065504) count:131022129 ave_time:21421  total_time:2806737316744
+	root            (       0) count:78006520 ave_time:33563  total_time:2618171772258
+	phjiang         ( 2298188) count:8729266 ave_time:14381  total_time:125543836207
+	sroy85          ( 2438191) count:6159509 ave_time:34109  total_time:210099583399
+	gprocop1        ( 3683190) count:2752803 ave_time:7106   total_time:19561897157
+	khondula        ( 2462423) count:1835520 ave_time:21517  total_time:39495368861
+	dpate136        ( 2266694) count:1763229 ave_time:4127   total_time:7277648293
+	tjennewe        ( 2410476) count:1504669 ave_time:26512  total_time:39893265408
+	sgable3         ( 3266543) count:1064692 ave_time:74444  total_time:79260071371
+	mlynch11        ( 1528017) count:1053650 ave_time:2875   total_time:3029872097
+	vabhat          ( 2734594) count:1019555 ave_time:18067  total_time:18420392639
+	jmpaniag        ( 2349238) count:961114 ave_time:23555  total_time:22639639744
+	ygilron         ( 3027589) count:890007 ave_time:19475  total_time:17333218509
+	djriver7        ( 1274075) count:856931 ave_time:23116  total_time:19809292595
+	mpovolo1        ( 2138550) count:646460 ave_time:25546  total_time:16514626630
+	mrline          ( 1286326) count:544242 ave_time:31418  total_time:17099529324
+	nmendo12        ( 1995240) count:484452 ave_time:23555  total_time:11411359323
+	sramku14        ( 3726616) count:482796 ave_time:30381  total_time:14668192646
+	smukhe50        ( 1935513) count:480079 ave_time:21821  total_time:10475809478
+	trreckel        (  893163) count:475404 ave_time:9313   total_time:4427840331
+	tianche5        ( 1642745) count:349594 ave_time:79124  total_time:27661507363
+	aarora50        ( 1496607) count:310146 ave_time:80219  total_time:24879763355
+	yrotman         ( 2415527) count:271067 ave_time:59384  total_time:16097115228
+	sjpruitt        ( 1111476) count:266435 ave_time:10335  total_time:2753731008
+	skanuma1        ( 1945547) count:197709 ave_time:25003  total_time:4943445978
+	xdeng40         ( 2682566) count:186373 ave_time:16436  total_time:3063267600
+	qhong7          ( 2231084) count:179528 ave_time:79550  total_time:14281565735
+	nuislam         ( 1604975) count:174451 ave_time:30326  total_time:5290477634
+	kedoxey         (  941612) count:134075 ave_time:39390  total_time:5281344759
+	sshar246        ( 2185380) count:124204 ave_time:6874   total_time:853778771
+	dyangali        ( 1772745) count:120349 ave_time:19652  total_time:2365160916
+	jchaco26        ( 3205940) count:119217 ave_time:33645  total_time:4011149561
+	mseeley1        ( 1697104) count:119141 ave_time:19074  total_time:2272549150
+	syang240        ( 2427935) count:118160 ave_time:486    total_time:57505901
+	ajain289        ( 2404988) count:111981 ave_time:32388  total_time:3626868360
+	fali29          ( 2498681) count:109783 ave_time:39394  total_time:4324896219
+	bamtsfie        ( 3253636) count:104551 ave_time:24496  total_time:2561120814
+	hsilver6        ( 3328895) count:101310 ave_time:16593  total_time:1681112418
+	kxdcs           (     935) count:99225  ave_time:31684  total_time:3143865719
+	jpang12         ( 1523688) count:98409  ave_time:9097   total_time:895309318
+	rgorelik        ( 1920073) count:98169  ave_time:29610  total_time:2906876745
+	rpelleti        ( 1311736) count:89847  ave_time:22066  total_time:1982611273
+	cmuhich         ( 1513294) count:89490  ave_time:21492  total_time:1923382672
+	jasanc69        ( 2165797) count:89067  ave_time:45365  total_time:4040563376
+	mdbarne4        ( 1800127) count:82235  ave_time:16728  total_time:1375672455
+	sawilso6        (  409502) count:76639  ave_time:18221  total_time:1396502000
+	slurm           (     600) count:70446  ave_time:239350 total_time:16861253728
+	pbatra6         ( 2413218) count:62343  ave_time:33461  total_time:2086090025
+	kfang11         ( 2392747) count:61658  ave_time:16916  total_time:1043024955
+	pcampite        (  559104) count:61401  ave_time:40063  total_time:2459908408
+	nvaughn4        ( 1740885) count:61280  ave_time:28729  total_time:1760548232
+	rtelkar         ( 3338078) count:59639  ave_time:23259  total_time:1387162317
+	slwrigh4        (  865644) count:52490  ave_time:116209 total_time:6099857190
+	psmith57        ( 1932496) count:52450  ave_time:34557  total_time:1812518342
+	spfeife1        ( 1356809) count:46387  ave_time:53188  total_time:2467256567
+	yzhan937        ( 1788301) count:43387  ave_time:12807  total_time:555677797
+	bjain10         ( 2398488) count:40673  ave_time:43198  total_time:1757001364
+	nsnyderm        ( 1834488) count:40282  ave_time:46097  total_time:1856880571
+	mgrohols        ( 1837192) count:37766  ave_time:23284  total_time:879377751
+	causbeck        ( 3142273) count:36972  ave_time:24709  total_time:913542909
+	mlin61          ( 1911682) count:36824  ave_time:8892   total_time:327471810
+	mpirnia         ( 1916005) count:35246  ave_time:4632   total_time:163289608
+	wwei39          ( 1776047) count:34741  ave_time:8367   total_time:290710801
+	yzhao421        ( 3216200) count:34351  ave_time:11002  total_time:377960581
+	sbaptis7        ( 2976339) count:32777  ave_time:29219  total_time:957719894
+	namhyunk        ( 3342732) count:29513  ave_time:24666  total_time:727973828
+	welfert         (   23568) count:26492  ave_time:14188  total_time:375882765
+	jacoba1         ( 2100053) count:25092  ave_time:28328  total_time:710831081
+	ascarpa1        ( 3687102) count:24299  ave_time:63953  total_time:1554013408
+	tcolburn        ( 1017203) count:22666  ave_time:43156  total_time:978191988
+	skarthi3        ( 1617470) count:19465  ave_time:22670  total_time:441281214
+	nstrombe        ( 2009781) count:18590  ave_time:59969  total_time:1114837384
+	fmkeller        ( 3389523) count:18148  ave_time:22417  total_time:406826216
+	ikazan          ( 1140889) count:17648  ave_time:20911  total_time:369053283
+	gwang128        ( 3451668) count:17311  ave_time:15484  total_time:268047006
+	kawoodbu        (  387743) count:16264  ave_time:8288   total_time:134799065
+	rjoshi44        ( 2771252) count:16047  ave_time:23014  total_time:369308668
+	ahisham         ( 3097910) count:15965  ave_time:43852  total_time:700104255
+	jheckle1        ( 1740882) count:14999  ave_time:28326  total_time:424867249
+	echang32        ( 3330728) count:14255  ave_time:14892  total_time:212296701
+	sadomako        ( 2692409) count:14000  ave_time:14796  total_time:207151491
+	wdizon          (  209286) count:13816  ave_time:7148   total_time:98763502
+	skucukyi        ( 3245085) count:12950  ave_time:4805   total_time:62232582
+	yalqurna        ( 2095254) count:12576  ave_time:34034  total_time:428013151
+	kjoshi35        ( 3235906) count:12056  ave_time:60503  total_time:729432281
+	bnabebe         ( 3397665) count:11560  ave_time:22821  total_time:263811202
+	earodr32        ( 1926034) count:11498  ave_time:4568   total_time:52524703
+	jjstick1        ( 3258526) count:11292  ave_time:24079  total_time:271902876
+	nhuynh9         ( 2121772) count:11072  ave_time:27191  total_time:301059224
+	mraji2          ( 2728828) count:9718   ave_time:37382  total_time:363284564
+	nose2           ( 1496739) count:9176   ave_time:12867  total_time:118072811
+	obahwal         ( 2142983) count:9016   ave_time:32779  total_time:295539481
+	mbehesht        ( 2164939) count:8841   ave_time:61220  total_time:541252950
+	mmpunga         ( 3024119) count:8819   ave_time:4922   total_time:43407780
+	achiquet        (  361669) count:8607   ave_time:30685  total_time:264114201
+	yinanli2        ( 2705062) count:6921   ave_time:16706  total_time:115624182
+	mhassle1        ( 3046668) count:5824   ave_time:35381  total_time:206061236
+	jwest128        ( 3583751) count:5725   ave_time:33861  total_time:193856466
+	smostaj1        ( 1965398) count:5378   ave_time:32077  total_time:172512757
+	nrames19        ( 1953506) count:5227   ave_time:11039  total_time:57704922
+	makram3         ( 1614515) count:4738   ave_time:29489  total_time:139722662
+	jeschro3        ( 2360411) count:4290   ave_time:31032  total_time:133130308
+	djtang          ( 3064825) count:3974   ave_time:5659   total_time:22492005
+	mzrickar        ( 1570794) count:3942   ave_time:35872  total_time:141408074
+	acenzan1        ( 2280780) count:3741   ave_time:19094  total_time:71430737
+	crajarig        ( 1399488) count:3616   ave_time:28585  total_time:103366401
+	edayrobe        ( 3270294) count:3485   ave_time:28584  total_time:99618500
+	jrevan21        ( 2143759) count:3460   ave_time:37692  total_time:130416606
+	tgrodri1        ( 1956120) count:3410   ave_time:39850  total_time:135890074
+	tsingh65        ( 2760262) count:3216   ave_time:7482   total_time:24063151
+	vkakarap        ( 1337794) count:2983   ave_time:35217  total_time:105053811
+	wyang113        ( 2938993) count:2983   ave_time:14935  total_time:44552793
+	lzhan300        ( 1762728) count:2859   ave_time:21227  total_time:60688183
+	ppavaman        ( 3000194) count:2786   ave_time:1630   total_time:4541671
+	jpeng49         ( 2420340) count:2710   ave_time:2721   total_time:7374397
+	jeburks2        ( 1724194) count:2680   ave_time:23000  total_time:61640959
+	ljimnezm        ( 2695483) count:2658   ave_time:31229  total_time:83009089
+	djfishe7        ( 2560274) count:2648   ave_time:35312  total_time:93507205
+	mkasbaou        ( 1656183) count:2014   ave_time:51469  total_time:103659208
+	lpino1          ( 2444340) count:1937   ave_time:18891  total_time:36591960
+	rghelich        ( 3331704) count:1891   ave_time:53789  total_time:101715314
+	mcschwei        ( 1132760) count:1883   ave_time:4052   total_time:7631585
+	qwang178        ( 1702237) count:1677   ave_time:21601  total_time:36226502
+	hwang49         (  229238) count:1405   ave_time:22809  total_time:32046817
+	jterbot         ( 2610033) count:1333   ave_time:129318 total_time:172381361
+	mcnixon1        ( 3542688) count:1261   ave_time:35617  total_time:44913306
+	jmbrill         (  523060) count:1131   ave_time:61058  total_time:69057083
+	leizuo          ( 3777702) count:1120   ave_time:25216  total_time:28242997
+	mrahm143        ( 3296149) count:966    ave_time:7250   total_time:7003502
+	acchapm1        ( 1551531) count:821    ave_time:41585  total_time:34141519
+	ypoh1           ( 1424537) count:737    ave_time:13341  total_time:9832714
+	annacho         ( 3306986) count:730    ave_time:43169  total_time:31513818
+	bmarine2        ( 3044493) count:623    ave_time:40307  total_time:25111674
+	aiyer13         ( 1472377) count:558    ave_time:1327   total_time:740560
+	sgundav3        ( 3668882) count:554    ave_time:20944  total_time:11603482
+	jauy1           ( 2764853) count:547    ave_time:54279  total_time:29691144
+	sejong          (  267450) count:540    ave_time:72142  total_time:38956938
+	reder1          ( 1576307) count:487    ave_time:54637  total_time:26608599
+	mheyden1        ( 1515958) count:471    ave_time:17874  total_time:8418944
+	inhosin         ( 3081899) count:398    ave_time:10700  total_time:4258640
+	nnjungle        ( 2909733) count:389    ave_time:15289  total_time:5947768
+	akurli          ( 3301830) count:378    ave_time:4965   total_time:1876944
+	yluo97          ( 1477300) count:372    ave_time:412    total_time:153482
+	kswichte        ( 1171220) count:370    ave_time:5628   total_time:2082672
+	pcrossla        ( 1679500) count:334    ave_time:73513  total_time:24553343
+	pgouripe        ( 1841225) count:333    ave_time:36286  total_time:12083252
+	shegde23        ( 2699242) count:265    ave_time:2499   total_time:662377
+	athiru12        ( 3262814) count:251    ave_time:341    total_time:85617
+	jcava           ( 1102198) count:245    ave_time:16523  total_time:4048146
+	mhossa46        ( 2402105) count:210    ave_time:19474  total_time:4089604
+	bguo21          ( 2409862) count:199    ave_time:7833   total_time:1558944
+	cgcall          ( 3204004) count:199    ave_time:5626   total_time:1119705
+	jlightho        (  795554) count:190    ave_time:4222   total_time:802318
+	kgjohn          ( 1870522) count:186    ave_time:4561   total_time:848492
+	emaravil        ( 2397043) count:174    ave_time:34165  total_time:5944756
+	jblain          (  747108) count:141    ave_time:126013 total_time:17767960
+	czhan178        ( 1219403) count:131    ave_time:19387  total_time:2539768
+	jgarc111        ( 1268675) count:129    ave_time:29956  total_time:3864332
+	cbony           ( 2918637) count:128    ave_time:7172   total_time:918140
+	sbaehr          ( 1515324) count:117    ave_time:15890  total_time:1859207
+	jstrat10        ( 3779870) count:113    ave_time:3373   total_time:381245
+	saslam6         ( 2552908) count:105    ave_time:27552  total_time:2893060
+	agavrilo        ( 1586282) count:103    ave_time:455    total_time:46957
+	hhemming        ( 2421089) count:102    ave_time:6610   total_time:674230
+	mghimire        ( 2153300) count:96     ave_time:168816 total_time:16206354
+	lycifuen        ( 1419000) count:88     ave_time:13827  total_time:1216787
+	lwang371        ( 2914623) count:54     ave_time:24732  total_time:1335574
+	masauer2        ( 1560395) count:48     ave_time:34431  total_time:1652732
+	jpark284        ( 1568087) count:45     ave_time:24046  total_time:1082100
+	avaghel3        ( 2379394) count:36     ave_time:3594   total_time:129395
+	gnie1           ( 1307730) count:35     ave_time:3620   total_time:126729
+	nyilmaz3        ( 2567139) count:27     ave_time:1425   total_time:38482
+	jbauman6        ( 2511812) count:27     ave_time:1205   total_time:32550
+	kcoutinh        ( 2150821) count:24     ave_time:11180  total_time:268321
+	msohanka        ( 1106124) count:21     ave_time:81459  total_time:1710646
+	dbaruah         ( 3416320) count:21     ave_time:6854   total_time:143946
+	cvedanap        ( 2588906) count:18     ave_time:215    total_time:3880
+	sjung61         ( 2700751) count:18     ave_time:37418  total_time:673534
+	tbattell        ( 2612849) count:18     ave_time:421    total_time:7595
+	ambarkl1        ( 1435428) count:15     ave_time:192    total_time:2894
+	software        (    1616) count:14     ave_time:744    total_time:10419
+	kamezcua        ( 3025480) count:13     ave_time:175    total_time:2282
+	jmlopez         (    7462) count:12     ave_time:228    total_time:2742
+	speyer          (   14568) count:9      ave_time:183    total_time:1648
+	insookim        ( 3418162) count:9      ave_time:168    total_time:1513
+	zhiqian7        ( 1568514) count:6      ave_time:269    total_time:1617
+	obeckste        (  849758) count:6      ave_time:187    total_time:1124
+	weiqing1        ( 1108435) count:6      ave_time:281    total_time:1691
+	cversoza        ( 1736416) count:6      ave_time:191    total_time:1147
+	hlewin1         ( 3054874) count:6      ave_time:118188 total_time:709131
+	hseifi          ( 2528652) count:6      ave_time:255    total_time:1531
+	lwelbank        ( 2239871) count:6      ave_time:255    total_time:1532
+	hkubo1          ( 2587492) count:6      ave_time:214    total_time:1288
+	agilani2        ( 2153410) count:3      ave_time:91     total_time:275
+	scalcat1        ( 2519749) count:3      ave_time:182    total_time:547
+	dhughe13        ( 1291558) count:3      ave_time:104    total_time:314
+	adprabh1        ( 2348902) count:3      ave_time:139    total_time:417
+	bcharri7        ( 1916891) count:3      ave_time:100    total_time:301
+	kschmidl        (  372410) count:3      ave_time:102    total_time:306
+	lingyil2        ( 3408157) count:3      ave_time:125    total_time:376
+
+Pending RPC statistics
+	No pending RPCs

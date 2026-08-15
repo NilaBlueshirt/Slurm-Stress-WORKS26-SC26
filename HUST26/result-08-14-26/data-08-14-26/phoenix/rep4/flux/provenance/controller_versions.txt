@@ -1,0 +1,5 @@
+captured_utc=2026-08-12T02:53:39Z
+slurm 25.11.3
+slurm 25.11.3
+slurm 25.11.3
+Python 3.14.6

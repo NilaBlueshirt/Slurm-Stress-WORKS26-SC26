@@ -1,0 +1,39 @@
+{
+    "target_name":   "Myuchelys_georgesi",
+    "query_name":    "Elgaria_multicarinata_webbii",
+    "target_genome": "/data/hlewin1/VGP_Projects/CEC_projects/masked_genomes/Myuchelys_georgesi_GCA_040894355.2_hap1.WM.renamed.fasta",
+    "query_genome":  "/data/hlewin1/VGP_Projects/CEC_projects/masked_genomes/Elgaria_multicarinata_webbii_GCA_023053635.2_hap1.WM.renamed.fasta",
+    "outdir":        "results",
+
+    "seq1_chunk": 25000000,
+    "seq2_chunk": 25000000,
+    "seq1_lap":   0,
+    "seq2_lap":   10000,
+
+    "lastz_y": 9400,
+    "lastz_h": 2000,
+    "lastz_l": 3000,
+    "lastz_k": 2400,
+    "lastz_q": null,
+
+    "min_chain_score":      1000,
+    "chain_linear_gap":     "loose",
+    "bundle_psl_max_bases": 1000000,
+
+    "skip_fill_chains":            false,
+    "skip_fill_unmask":            false,
+    "num_fill_jobs":               1000,
+    "fill_insert_chain_min_score": 5000,
+    "fill_gap_max_size_t":         20000,
+    "fill_gap_max_size_q":         20000,
+    "fill_gap_min_size_t":         30,
+    "fill_gap_min_size_q":         30,
+    "fill_lastz_k":                2000,
+    "fill_lastz_l":                3000,
+
+    "skip_clean_chain":       false,
+    "clean_chain_parameters": "-LRfoldThreshold=2.5 -doPairs -LRfoldThresholdPairs=10 -maxPairDistance=10000 -maxSuspectScore=100000 -minBrokenChainScore=75000",
+
+    "lastz_path":      "lastz",
+    "axt_to_psl_path": "axtToPsl"
+}

@@ -1,0 +1,4 @@
+CLUSTER: phoenix
+Account                    User  RawShares  NormShares    RawUsage   NormUsage  EffectvUsage  FairShare                    GrpTRESMins                    TRESRunMins 
+-------------------- ---------- ---------- ----------- ----------- ----------- ------------- ---------- ------------------------------ ------------------------------ 
+grp_rcadmins           tianche5          1    0.000721     4491463    0.001373      0.000000   1.000000                                cpu=0,mem=0,energy=0,node=0,b+ 

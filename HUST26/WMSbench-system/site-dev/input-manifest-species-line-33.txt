@@ -1,0 +1,6 @@
+species_list_line=33
+species_pair=Caretta_caretta	GCA_965140235.1	Gallus_gallus	GCA_016700215.2
+target_path=/data/hlewin1/VGP_Projects/CEC_projects/masked_genomes/Caretta_caretta_GCA_965140235.1_hap1.WM.renamed.fasta
+target_sha256=b024f26ca733ea7edb9e7d0025e70784f7c9908625276de315ff02e5a9b97f3e
+query_path=/data/hlewin1/VGP_Projects/CEC_projects/masked_genomes/Gallus_gallus_GCA_016700215.2_hap1.WM.Z.renamed.fasta
+query_sha256=119fdbcddc668be733759e74748f0c642b0cd3bb8443a95c5e5765653709d15b

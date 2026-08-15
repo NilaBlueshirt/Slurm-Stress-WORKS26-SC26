@@ -1,0 +1,1 @@
+/packages/apps/slurm-x86_64/dev/bin/sacctmgr -i modify user name=tianche5 account=grp_rcadmins set rawusage=0 

@@ -1,0 +1,1 @@
+	tianche5        ( 1642745) count:334506 ave_time:72668  total_time:24308152524

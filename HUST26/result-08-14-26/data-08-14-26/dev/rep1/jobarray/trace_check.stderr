@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "<stdin>", line 6, in <module>
+  File "/packages/envs/flux-0.88.0/lib/python3.13/pathlib/_local.py", line 670, in resolve
+    return self.with_segments(os.path.realpath(self, strict=strict))
+                              ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen posixpath>", line 451, in realpath
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/tianche5/5b-bench/WMSbench-pipeline-runs/dev/rep1/jobarray/trace'
