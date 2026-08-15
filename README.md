@@ -1,12 +1,10 @@
-# Slurm-Stress-WORKS26-SC26
-Balancing Workload Performance and Slurm Stress: Four Nextflow Deployment Strategies
+# Slurm-Stress-HUST26-SC26
+From Support Principles to Runnable Slurm Diagnostics: An Audited Toolkit for Nextflow on Shared HPC
 
-arXiv link to this paper: coming up
+Data and plots used for this HUST26 submission on Aug 14 2026:
+- Raw data: `HUST26/result-08-14-26/data-08-14-26`
+- Plot: `HUST26/result-08-14-26/fig_support_decision.png`
+- Harness: `HUST26/WMSbench-system/`
+- Driver scripts with site config: `HUST26/ready`
 
-Data and plots used for this WORKS26 submission on Aug 07 2026:
-- Raw data: `bench-WORKS26/plots-08-07-2026/data-08-07-2026`
-- Plots and tables: `bench-WORKS26/plots-08-07-2026/result-08-07-2026`
-- Harness: `bench-WORKS26/WMSbench-system/`
-- Driver scripts with site config: `bench-WORKS26/ready`
-
-Reusable benchmarking tool: `bench-WORKS26/controller` and `bench-WORKS26/monitor`
+Reusable benchmarking tool: `HUST26/controller`, `HUST26/monitor`, `HUST26/analysis`.
