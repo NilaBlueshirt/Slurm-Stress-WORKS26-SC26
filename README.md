@@ -6,6 +6,12 @@ on shared Slurm HPC systems. The submissions share a common case study but ask
 different questions: pipeline refactoring, workflow deployment, support
 diagnostics, site operations, and cross-workflow-manager generalization.
 
+For the reusable, paper-independent benchmarking toolkit, see
+[`WfTune`](https://github.com/NilaBlueshirt/WfTune). WfTune packages the
+generalized collection, monitoring, auditing, and analysis tools with
+configuration templates and synthetic example data; this repository retains
+the submission-specific artifacts and campaign data.
+
 Each section below summarizes the submission's main focus and identifies where
 its data and reproducibility artifacts live in this repository. `TODO` entries
 are placeholders for material that has not yet been added.
