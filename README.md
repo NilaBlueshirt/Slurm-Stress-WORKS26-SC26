@@ -1,4 +1,4 @@
-# Slurm-Stress-WORKS26-SC26
+# Slurm-Stress-SC26
 Balancing Workload Performance and Slurm Stress: Four Nextflow Deployment Strategies
 
 arXiv link to this paper: coming up
